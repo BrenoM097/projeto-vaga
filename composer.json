@@ -1,0 +1,23 @@
+{
+    "name": "brenomelo/projetovaga",
+    "description": "Projeto feito para candidatura a vaga",
+    "authors": [
+        {
+            "name": "Breno Melo Porcel",
+            "email": "melobreno89@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8"
+    },
+        "autoload": {
+            "psr-4": {
+                "app\\": "app/",
+                "core\\": "core/"
+            },
+            "files": [
+                "config/config.php"
+            ]
+        }
+    }

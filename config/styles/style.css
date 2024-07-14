@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 100px;
+}
+
+span {
+    height: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img {
+    width: 10%
+}
+
+td img {
+    width: 80px;
+}
+
+.logo {
+    width: 95px;
+    border-radius: 20%;
+}
+
+#cabecalho {
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+}
+
+#footer {
+    margin-top: 50px;
+}
